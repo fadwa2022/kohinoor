@@ -271,20 +271,146 @@ margin-left: 4%;
     margin-left: 46%;
 }
 
-@media only screen and (max-width : 232px){
-  .body{
-     width: 100%; 
-  }
-   .bodypage{
-    width: 100%; 
-      
-    }
-    .footer{
-    width: 100%;   
-    }
-}
-@media (min-width : 500px){
+
+@media screen and (max-width: 700px) {
     img{
         width: 100.22px;
         height: 100.22px;
-    }}
+    }
+    .selectmodele button {
+        width: 100px;
+            height: 67px;
+        background-color: rgba(0, 0, 0, 0.84);;
+        border-radius: 52.2px;
+    }
+    .sm {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    #kohinoor_head {
+        margin-top: 18%;
+        margin-left: 21%;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 96px;
+    }
+    .selectmodele {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        position: absolute;
+        width: 100%;
+        height: 87px;
+        left: -10px;
+        top: 458px;
+    }
+    .troix_articles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12.6412px;
+        line-height: 23px;    
+    }
+    h4 {
+        margin-inline-start: 28%;}
+#rectwite {
+            margin-left: 9%;
+            height: 166.62px;
+            width: 173px;}
+            
+#cadr_elogo {
+                width: 126.22px;
+                height: 138.22px;
+                margin: 10%;
+            }
+            
+.contacts_footer {
+    font-size: 6px;
+    line-height: 0px;
+    margin-left: 44%;
+    margin-top: -14%;
+}
+
+.Newsletter_cadre {
+    margin-left: 34%;
+    margin-top: 14%;
+        }
+        input{   
+             width: 67%;
+        }
+        #buttonsubs {
+           
+            margin-left:11%;}
+
+            /* Sidenav menu */
+            .menu{
+                display: none;
+            }
+        .sidenav {
+
+            width: 230px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: -250px;
+           
+            padding-top: 60px;
+            transition: left 0.5s ease;
+        }
+                
+                /* Sidenav menu links */
+                .sidenav a {
+                  padding: 8px 8px 8px 32px;
+                  text-decoration: none;
+                  font-size: 25px;
+                  color: #fff7f7;
+                  display: block;
+                  transition: 0.3s;
+                }
+                
+            
+                #burger{
+                    display: block;
+                }
+                .sidenav ul {
+              
+                  list-style-type: none;
+                  padding: 0;
+                  margin: 0;
+                }
+                
+                /* Active class */
+                .sidenav.active {
+                    background-repeat: no-repeat;
+                    background-image: url("./image kohinoor/Elegant_Initial_Jewelry_Logo-removebg-preview.png");
+                    left: 57%;
+                    background-size: 83%;
+                }
+                
+                /* Close btn */
+                .sidenav .close {
+                  position: absolute;
+                  top: 0;
+                  right: 25px;
+                  font-size: 36px;
+                }
+                
+                /* Icône burger */
+                .burger-icon span {
+                  display: block;
+                  width: 35px;
+                  height: 5px;
+                  background-color: rgb(54, 51, 51);
+                  margin-left: -51%;
+                  margin-top: 21%;}
+             
+    }
+   

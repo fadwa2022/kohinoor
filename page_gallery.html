@@ -25,6 +25,24 @@
               </a>
               </div>
                <!---menu--->
+               <div id="burger">
+                <div id="mySidenav" class="sidenav">
+                    <a id="closeBtn" href="#" class="close">×</a>
+                    <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="page_gallery.html">Gallery</a></li>
+                      <li><a href="page_contact.html">Contact</a></li>
+                    </ul>
+                  </div>
+                  
+                  <a href="#" id="openBtn">
+                    <span class="burger-icon">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </span>
+                  </a></div>
               <div class="menu">
                   <div><a href="index.html" class="choixmenu">Home</a></div>
                   <div><a href="about.html" class="choixmenu">About</a></div>
@@ -53,7 +71,7 @@
 <!---body --->
 <div class="bodypage">
         <div id="traditionnel">
-            <h4 style="margin-left: 500px;">traditionnel</h4>
+            <h4 >traditionnel</h4>
             <div class="troix_articles " style="margin-left: -24px;">
             <div>
              <center> 
@@ -252,6 +270,24 @@
             <h6>© 2022 All Rights Reserved</h6>
         </div>
     </div>
+    <script> 
+        var sidenav = document.getElementById("mySidenav");
+            var openBtn = document.getElementById("openBtn");
+            var closeBtn = document.getElementById("closeBtn");
+            
+            openBtn.onclick = openNav;
+            closeBtn.onclick = closeNav;
+            
+            /* Set the width of the side navigation to 250px */
+            function openNav() {
+              sidenav.classList.add("active");
+            }
+            
+            /* Set the width of the side navigation to 0 */
+            function closeNav() {
+              sidenav.classList.remove("active");
+            }
+            </script>
 
 </body>
 </html>
