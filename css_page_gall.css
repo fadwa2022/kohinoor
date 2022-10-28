@@ -10,6 +10,9 @@ body{
 
 }
 /*css header*/
+#burger{
+    display: none;
+}
 .header {
     width: 100%;
     height: 607px;
